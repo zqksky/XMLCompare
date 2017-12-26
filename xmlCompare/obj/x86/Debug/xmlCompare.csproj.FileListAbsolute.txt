@@ -1,0 +1,18 @@
+D:\Qiankun Zheng\zqk\xmlCompare\xmlCompare\bin\Debug\xmlCompare.exe
+D:\Qiankun Zheng\zqk\xmlCompare\xmlCompare\bin\Debug\xmlCompare.pdb
+D:\Qiankun Zheng\zqk\xmlCompare\xmlCompare\obj\x86\Debug\Interop.Microsoft.Office.Core.dll
+D:\Qiankun Zheng\zqk\xmlCompare\xmlCompare\obj\x86\Debug\xmlCompare.csproj.ResolveComReference.cache
+D:\Qiankun Zheng\zqk\xmlCompare\xmlCompare\obj\x86\Debug\xmlCompare.frmMain.resources
+D:\Qiankun Zheng\zqk\xmlCompare\xmlCompare\obj\x86\Debug\xmlCompare.Properties.Resources.resources
+D:\Qiankun Zheng\zqk\xmlCompare\xmlCompare\obj\x86\Debug\xmlCompare.csproj.GenerateResource.Cache
+D:\Qiankun Zheng\zqk\xmlCompare\xmlCompare\obj\x86\Debug\xmlCompare.exe
+D:\Qiankun Zheng\zqk\xmlCompare\xmlCompare\obj\x86\Debug\xmlCompare.pdb
+E:\GitHub\project\xmlCompare\xmlCompare\obj\x86\Debug\Interop.Microsoft.Office.Core.dll
+E:\GitHub\project\xmlCompare\xmlCompare\obj\x86\Debug\xmlCompare.csproj.ResolveComReference.cache
+E:\GitHub\project\xmlCompare\xmlCompare\obj\x86\Debug\xmlCompare.exe
+E:\GitHub\project\xmlCompare\xmlCompare\obj\x86\Debug\xmlCompare.pdb
+E:\GitHub\project\xmlCompare\xmlCompare\bin\Debug\xmlCompare.exe
+E:\GitHub\project\xmlCompare\xmlCompare\bin\Debug\xmlCompare.pdb
+E:\GitHub\project\xmlCompare\xmlCompare\obj\x86\Debug\xmlCompare.frmMain.resources
+E:\GitHub\project\xmlCompare\xmlCompare\obj\x86\Debug\xmlCompare.Properties.Resources.resources
+E:\GitHub\project\xmlCompare\xmlCompare\obj\x86\Debug\xmlCompare.csproj.GenerateResource.Cache
