@@ -1,0 +1,232 @@
+git init
+
+	把目录变成git可以管理的仓库
+
+git add test.txt
+
+	把test.txt添加到暂存区
+	
+git add test1.txt test2.txt
+
+	把多个文件添加到暂存区
+	
+git add .
+
+	把所有的文件添加到暂存区
+	
+git status
+
+	查看仓库暂存区中的状态
+	
+git diff test.txt
+
+	查看test.txt修改了那些内容
+	
+git diff HEAD -- test.txt
+
+	查看工作区和版本库里最新版本的区别
+	
+git commit -m "this is note"
+
+	提交暂存区中的所有文件（提交到仓库）
+	
+git log
+
+	查看提交的版本记录（查看提交历史）
+	
+git log --pretty=oneline
+
+	查考提交的版本记录（一行输出）
+	
+git reset --hard HEAD^
+
+	回退到上一版本
+	
+git reset --hard HEAD^^
+
+	回退到上上一个版本
+	
+git reflog
+
+	记录每次记录（查看命令历史）
+	
+git checkout -- test.txt 
+
+	把test在工作区的修改全部撤销
+	
+git reset HEAD test.txt
+
+	把test在暂存区的修改全部撤销（把暂存区的修改回退到工作区）
+	
+git rm test.txt
+git commit -m "remove test.txt"
+	从版本库中删除test文件
+	
+git checkout -- test.txt
+
+	用版本库里的版本替换工作区里的版本
+	
+ssh-keygen -t rsa -C zqksky@126.com
+
+	创建SSH key
+	
+git config --global color.ui true
+
+	git显示颜色
+	
+git config --global user.name zqksky
+
+git config --global user.email zqksky@126.com
+	
+git remote add origin git@github.com:zqksky/xmlCompare.git
+
+	本地仓库关联远程仓库
+	
+git remote 
+
+	查看远程库的信息
+	
+git remote show origin 
+
+	查看远程库的信息
+	
+git remote -v
+
+	查看远程库的详细信息
+	
+git remote rm origin
+
+	删除已有的github远程库
+	
+git pull
+
+	从最初克隆的远程库抓取数据并尝试合并到本地
+	
+git fetch git@github.com:zqksky/xmlCompare.git
+
+	从远程库拉取数据
+	
+git push -u origin master
+
+	把本地库的内容推送到远程库（远程库是空的时候加-u参数）
+	
+git push origin master
+
+	把本地库的内容推送到远程库
+	
+git clone git@github.com:zqksky/xmlCompare.git
+
+	把远程库中内容克隆到当前库
+	
+git checkout  -b myBranch
+
+	创建一个名为myBranch的分支，并切换到myBranch分支
+	
+git branch myBranch
+
+	创建一个名为myBranch的分支，
+	
+git checkout myBranch
+
+	切换到myBranch分支
+	
+git branch 
+
+	查看所有的分支（*开头的是当前所在的分支）
+	
+git merge myBranch
+
+	把myBranch分支的内容合并到master主分支上
+	
+git branch -d myBranch
+
+	删除myBranch分支
+	
+git log --graph --pretty=oneline --abbrev-commit
+
+	查看分支的合并情况
+	
+git stash
+
+	储存当前的工作现场
+	
+git stash list
+
+	查看储存的工作现场
+	
+git stash apply
+
+	恢复但stash内容并不删除
+
+git stash drop
+
+	删除stash的内容
+	
+git stash pop
+
+	恢复同时把stash内容删除
+	
+git tag v1.0
+
+	添加标签（默认打在最新提交上）
+		
+git tag
+	
+	查看所有的标签
+	
+git show v1.0
+
+	查看标签信息
+	
+git tag -a v1.0 -m "version 1.0 released" 3628164
+
+	创建带说明的标签
+	
+git tag -d v1.0
+
+	删除标签
+	
+git push origin v1.0
+
+	推送标签到远程
+	
+git push origin --tags
+
+	一次性推送全部尚未推送到远程的本地标签
+	
+git push origin :refs/tags/v1.0
+
+	删除远程的标签
+	
+git log --pretty=oneline --abbrev-commit
+
+	查看提交ID
+
+
+	
+•查看远程库信息，使用git remote -v；
+
+
+•本地新建的分支如果不推送到远程，对其他人就是不可见的；
+
+
+•从本地推送分支，使用git push origin branch-name，如果推送失败，先用git pull抓取远程的新提交；
+
+
+•在本地创建和远程分支对应的分支，使用git checkout -b branch-name origin/branch-name，本地和远程分支的名称最好一致；
+
+
+•建立本地分支和远程分支的关联，使用git branch --set-upstream branch-name origin/branch-name；
+
+
+•从远程抓取分支，使用git pull，如果有冲突，要先处理冲突。
+
+
+
+	
+	
+	
+
+	
+
+	
